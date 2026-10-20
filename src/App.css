@@ -1,0 +1,75 @@
+main {
+  max-width: 36rem;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.tagline,
+.empty,
+small {
+  color: #8a7a6a;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+
+form input[name='bean'],
+form textarea,
+form button {
+  grid-column: 1 / -1;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid #d8cfc4;
+  border-radius: 6px;
+}
+
+button {
+  background: #6f4e37;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+li {
+  padding: 1rem;
+  border: 1px solid #e8e0d6;
+  border-radius: 8px;
+  background: #fffaf4;
+}
+
+li header {
+  display: flex;
+  justify-content: space-between;
+}
+
+li p {
+  margin: 0.5rem 0 0;
+}
