@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import './App.css'
 
-type Brew = {
+export type Brew = {
   id: string
   bean: string
   method: string
